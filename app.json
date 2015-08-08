@@ -1,0 +1,12 @@
+{
+  "name": "cowboy",
+  "description": "The good, the bad, and the ugly!",
+  "keywords": [
+    "cowboy",
+    "imdb",
+    "utility",
+    "slack"
+  ],
+  "website": "http://github.com/vishaltelangre/cowboy",
+  "repository": "http://github.com/vishaltelangre/cowboy"
+}
