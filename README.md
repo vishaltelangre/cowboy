@@ -3,6 +3,8 @@ Cowboy
 
 The good, the bad, and the ugly.
 
+![](http://i.imgur.com/YKYhhXX.gif)
+
 ## Usage
 
 From any Slack channel, just type `/<command> [search terms]`.
@@ -47,6 +49,7 @@ Follow [this](https://devcenter.heroku.com/articles/getting-started-with-go) tut
 - Please use the [issue tracker](https://github.com/vishaltelangre/cowboy/issues) to report any bugs or file feature requests.
 
 ## Thankings
+- This project is inspired from @karan's [overflow](https://github.com/karan/slack-overflow), but is more powerful!
 - Movie details are retrieved from http://www.omdbapi.com/. Thanks to the creator of this site.
 
 ## Copyright and License
