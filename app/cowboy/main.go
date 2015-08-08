@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/vishaltelangre/cowboy/Godeps/_workspace/src/github.com/gin-gonic/gin"
 	"github.com/vishaltelangre/cowboy/app/cowboy/powers"
+	"net/http"
 	"os"
 )
 
@@ -14,6 +15,9 @@ func main() {
 
 	r := gin.Default()
 
+	r.GET("/", func(c *gin.Context) {
+		c.Redirect(http.StatusMovedPermanently, "https://github.com/vishaltelangre/cowboy")
+	})
 	r.POST("/movie.:format", movie_lookup.MovieHandler)
 
 	// TODO:
