@@ -3,7 +3,9 @@ Cowboy
 
 The good, the bad, and the ugly.
 
-![](http://i.imgur.com/YKYhhXX.gif)
+## Watch `cowboy` in action!
+
+![watch cowboy in action!](https://raw.github.com/vishaltelangre/cowboy/master/static/sneak_peak.gif)
 
 ## Usage
 
@@ -13,10 +15,12 @@ For example:
 
 ```
 /imdb casablanca
+/excuse
 ```
 
 ## Available commands
 - Movie details lookup on IMDb (URL: http://cowboy-slack.herokuapp.com/movie.slack)
+- Get excuses to spit on your boss' face (URL: http://cowboy-slack.herokuapp.com/excuse.slack)
 - More coming soon...
 
 ## TODO
@@ -49,8 +53,9 @@ Follow [this](https://devcenter.heroku.com/articles/getting-started-with-go) tut
 - Please use the [issue tracker](https://github.com/vishaltelangre/cowboy/issues) to report any bugs or file feature requests.
 
 ## Thankings
-- This project is inspired from @karan's [overflow](https://github.com/karan/slack-overflow), but is more powerful!
+- This project is inspired from @karan's [overflow](https://github.com/karan/slack-overflow), but is way more powerful!
 - Movie details are retrieved from http://www.omdbapi.com/. Thanks to the creator of this site.
+- Source of funny programmer's excuses: http://www.programmerexcuses.com/
 
 ## Copyright and License
 

@@ -111,8 +111,8 @@ func formatSlackResp(movie *Movie) (string, error) {
 	return buf.String(), nil
 }
 
-// MovieHandler is a route handler for '/movie.:format' route
-func MovieHandler(c *gin.Context) {
+// Handler is a route handler for '/movie.:format' route
+func Handler(c *gin.Context) {
 	requestType := c.Param("format")
 	term := c.Request.PostFormValue("text")
 
