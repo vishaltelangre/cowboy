@@ -75,7 +75,7 @@ func lookupMovie(term string) (*Movie, error) {
 	parameters.Add("v", "1")
 	apiURL.RawQuery = parameters.Encode()
 
-	content, err := utils.GetContent(apiURL.String())
+	content, err := utils.GetContent(apiURL.String(), nil)
 
 	if err != nil {
 		return nil, err

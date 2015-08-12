@@ -22,7 +22,7 @@ func getAnExcuse() (*Excuse, error) {
 		return nil, err
 	}
 
-	content, err := utils.GetContent(endpointURL.String())
+	content, err := utils.GetContent(endpointURL.String(), nil)
 	if err != nil {
 		return nil, err
 	}
