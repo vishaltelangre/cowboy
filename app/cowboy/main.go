@@ -5,6 +5,7 @@ import (
 	"github.com/vishaltelangre/cowboy/app/cowboy/powers/excuse"
 	"github.com/vishaltelangre/cowboy/app/cowboy/powers/movie_lookup"
 	"github.com/vishaltelangre/cowboy/app/cowboy/powers/producthunt"
+	"github.com/vishaltelangre/cowboy/app/cowboy/powers/xkcd"
 	"net/http"
 	"os"
 )
@@ -26,6 +27,7 @@ func main() {
 	r.POST("/movie.:format", movie_lookup.Handler)
 	r.POST("/excuse.:format", excuse.Handler)
 	r.POST("/producthunt/posts.:format", producthunt.PostsHandler)
+	r.POST("/xkcd.:format", xkcd.Handler)
 
 	// TODO:
 	// r.POST("/producthunt/collections.:format", producthunt.CollHandler)
