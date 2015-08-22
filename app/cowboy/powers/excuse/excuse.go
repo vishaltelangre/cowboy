@@ -1,9 +1,9 @@
 package excuse
 
 import (
-	"github.com/vishaltelangre/cowboy/Godeps/_workspace/src/github.com/gin-gonic/gin"
-	"github.com/vishaltelangre/cowboy/Godeps/_workspace/src/golang.org/x/net/html"
+	"github.com/gin-gonic/gin"
 	"github.com/vishaltelangre/cowboy/app/cowboy/utils"
+	"golang.org/x/net/html"
 	"net/http"
 	"net/url"
 	"strings"
